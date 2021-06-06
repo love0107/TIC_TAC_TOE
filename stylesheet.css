@@ -1,0 +1,116 @@
+body{
+    color:#fff;
+    background-color:#14bdac;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+h2{
+    margin: 2% auto 2%;
+    font-weight:bolder;
+    font-size: 35px;
+
+}
+.Announce{
+    height:21rem;
+    width: 21rem;
+    margin:-2%;
+    font-size: xx-large;
+    font-weight: 900;
+    line-height: 2;
+    color:#fff;
+    text-align: center;
+    align-items: center;
+    opacity: 0.7;
+    display:inline-grid;
+    position: absolute;
+    background-color: #4d4d4d;
+    border-radius: 20px;
+    box-shadow: rgb(36, 30, 30);
+    z-index: 2;
+}
+.first-line{
+    border:dotted #ffcc29 4px;
+    border-bottom: none;
+    width:70%;
+    margin:0 auto;
+}
+.box-line{
+    border:solid #0da192 4px;
+    border-bottom: none;
+    width:20rem;
+    margin:1% auto 0;
+}
+.v-line{
+ border:solid #0da192 2px;
+ height:20rem; 
+ display: inline-block;
+z-index: 1;  
+position: absolute;    
+    
+}
+.ending-line{
+    border:dotted #12978a 4px;
+    border-bottom: none;
+    width:7%;
+    margin:2% auto 0;
+}
+.Score_1,.Score_2,.break{
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 1rem;
+
+}
+.block{
+    text-align:center;
+    font-size:100px;
+    width: 6.0705rem;
+    height: 6.1rem;
+    outline: none;
+    display: inline-block;
+    background-color:#14bdac;
+    cursor:pointer; 
+}
+.newgame,.resetgame{
+  display: inline-block;
+  margin:3% 2rem;
+  font-size: 0.7rem;
+  background: linear-gradient(to right, aqua 0, white 10%, #4d4d4d 20%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip:text;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  z-index: 3;
+}
+.Button:hover{
+    cursor: pointer;
+}
+.ending-text{
+   
+font-size: .7rem;
+
+}
+.footer-link{
+    margin-top: 10px;
+    color:#fff;
+    padding:0 10px;
+    font-size: .7rem;
+}
+.twitter:hover
+{
+    color:#6ef8f8;
+}
+.facebook:hover{
+    color:#4267B2;
+}
+.instagram:hover
+{
+    color:#8a3ab9;
+ }
+ @keyframes shine{
+ 0%{
+   background-position: 0;}
+
+ 100%{
+   background-position: 180px;}
+ }

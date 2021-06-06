@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="icon" href="">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/c85d70040f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+     <h2>TIC TAC TOE</h2>
+     <hr class="first-line">
+     <div class="Score_1">0</div>
+     <div class="break">:</div>
+     <div class="Score_2">0</div><br>
+     <div id="msg"></div>
+     <div id="1" class="block" onclick="PlayerAction(this,0,0)"></div><hr class="v-line">
+     <div id="2" class="block" onclick="PlayerAction(this,0,1)"></div><hr class="v-line">
+     <div id="3" class="block" onclick="PlayerAction(this,0,2)"></div><hr class="box-line">
+     <div id="4" class="block" onclick="PlayerAction(this,1,0)"></div>
+     <div id="5" class="block" onclick="PlayerAction(this,1,1)"></div>
+     <div id="6" class="block" onclick="PlayerAction(this,1,2)"></div><hr class="box-line">
+     <div id="7" class="block" onclick="PlayerAction(this,2,0)"></div>
+     <div id="8" class="block" onclick="PlayerAction(this,2,1)"></div>
+     <div id="9" class="block" onclick="PlayerAction(this,2,2)"></div><br>
+    <div onclick="Newgame()" class="newgame Button">NEW GAME</div>
+    <div onclick="ResetGame()" class="resetgame Button">RESET GAME</div>
+    <hr class="ending-line">
+      <script src="index.js"></script>
+    </body>
+    <footer>
+        <p class="ending-text">made with ❤️ by lovlesh Baghel.</p> 
+        <a class="footer-link facebook" href="https://www.facebook.com/lovlesh.baghel.3"> <i class="social-icon fab fa-facebook"></i></a>
+        <a class="footer-link twitter" href="https://twitter.com/BaghelLovlesh"> <i class="social-icon fab fa-twitter"></i></a>
+        <a class="footer-link instagram" href="https://www.instagram.com/lovleshbaghel"> <i class="social-icon fab fa-instagram"></i></a>
+    </footer> 
+</html>
