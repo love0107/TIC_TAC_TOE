@@ -112,8 +112,8 @@ function ResetGame(){
   Newgame();
   score1=0;
   score2=0;
-  $(".Score_1").html(score1);
-  $(".Score_2").html(score2);
+  $(".Score_1").html("player x");
+  $(".Score_2").html("player o");
 }
 
 
