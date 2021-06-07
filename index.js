@@ -42,17 +42,17 @@ else if(turn==2){
 //cheaking for row
 
 if(matrix[0][0]==matrix[0][1] && matrix[0][1]==matrix[0][2]) win=matrix[0][0];
-if(matrix[1][0]==matrix[1][1] && matrix[1][1]==matrix[1][2]) win=matrix[1][0];
-if(matrix[2][0]==matrix[2][1] && matrix[2][1]==matrix[2][2]) win=matrix[2][0];
+else if(matrix[1][0]==matrix[1][1] && matrix[1][1]==matrix[1][2]) win=matrix[1][0];
+else if(matrix[2][0]==matrix[2][1] && matrix[2][1]==matrix[2][2]) win=matrix[2][0];
 
 //cheaking for column
-if(matrix[0][0]==matrix[1][0] && matrix[1][0]==matrix[2][0]) win=matrix[0][0];
-if(matrix[0][1]==matrix[1][1] && matrix[1][1]==matrix[2][1]) win=matrix[0][1];
-if(matrix[0][2]==matrix[1][2] && matrix[1][2]==matrix[2][2]) win=matrix[0][2];
+else if(matrix[0][0]==matrix[1][0] && matrix[1][0]==matrix[2][0]) win=matrix[0][0];
+else if(matrix[0][1]==matrix[1][1] && matrix[1][1]==matrix[2][1]) win=matrix[0][1];
+else if(matrix[0][2]==matrix[1][2] && matrix[1][2]==matrix[2][2]) win=matrix[0][2];
  
 //cheaking winner in diagonal
-if(matrix[0][0]==matrix[1][1] && matrix[1][1]==matrix[2][2]) win=matrix[0][0];
-if(matrix[0][2]==matrix[1][1] && matrix[1][1]==matrix[2][0]) win=matrix[0][2];
+else if(matrix[0][0]==matrix[1][1] && matrix[1][1]==matrix[2][2]) win=matrix[0][0];
+else if(matrix[0][2]==matrix[1][1] && matrix[1][1]==matrix[2][0]) win=matrix[0][2];
 
 //announceing the winner
 if(win!=-1)
